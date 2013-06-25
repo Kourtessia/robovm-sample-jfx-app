@@ -1,4 +1,4 @@
-package com.robovm.sample.jfx;
+package org.robovm.sample.jfx;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
