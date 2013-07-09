@@ -18,10 +18,11 @@ public class RoboVMSampleJFXApp extends Application {
         rootNode.setCenter(new Label("RoboVM and JavaFX"));
 
         Scene scene = new Scene(rootNode, 400, 200);
-        scene.getStylesheets().add("/styles/styles.css");
+        //scene.getStylesheets().add("/styles/styles.css");
 
         stage.setTitle("RoboVM and JavaFX");
         stage.setScene(scene);
         stage.show();
+
     }
 }

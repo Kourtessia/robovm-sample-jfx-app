@@ -19,7 +19,8 @@
         <artifactId>robovm-maven-plugin</artifactId>
         <version>0.0.2.2-SNAPSHOT</version>
         <configuration>
-          <mainClass>org.robovm.sample.jfx.RoboVMSampleJFXApp</mainClass>
+          <mainClass>org.robovm.sample.jfx.RoboVMJFXLauncher</mainClass>
+          <includeJFX>true</includeJFX>
         </configuration>
       </plugin>
     </plugins>
@@ -30,6 +31,16 @@
       <groupId>org.robovm</groupId>
       <artifactId>robovm-rt</artifactId>
       <version>0.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.robovm</groupId>
+      <artifactId>robovm-cocoatouch</artifactId>
+      <version>0.0.2</version>
+    </dependency>
+    <dependency>
+      <groupId>net.java.openjfx</groupId>
+      <artifactId>jfx-backport</artifactId>
+      <version>8.7.1</version>
     </dependency>
   </dependencies>
 
