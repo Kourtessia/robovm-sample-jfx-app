@@ -30,6 +30,5 @@ public class RoboVMJFXLauncher extends UIApplicationDelegate.Adapter {
         NSAutoreleasePool pool = new NSAutoreleasePool();
         UIApplication.main(args, null, RoboVMJFXLauncher.class);
         pool.drain();
-
     }
 }

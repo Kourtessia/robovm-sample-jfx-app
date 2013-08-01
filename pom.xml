@@ -12,19 +12,12 @@
 
   <version>1.0-SNAPSHOT</version>
 
-  <pluginRepositories>
-    <pluginRepository>
-      <id>sonatype.snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </pluginRepository>
-  </pluginRepositories>
-
   <build>
     <plugins>
       <plugin>
         <groupId>org.robovm</groupId>
         <artifactId>robovm-maven-plugin</artifactId>
-        <version>0.0.2.2-SNAPSHOT</version>
+        <version>0.0.3.1</version>
         <configuration>
           <mainClass>org.robovm.sample.jfx.RoboVMJFXLauncher</mainClass>
           <includeJFX>true</includeJFX>
@@ -43,11 +36,6 @@
       <groupId>org.robovm</groupId>
       <artifactId>robovm-cocoatouch</artifactId>
       <version>0.0.2</version>
-    </dependency>
-    <dependency>
-      <groupId>net.java.openjfx</groupId>
-      <artifactId>jfx-backport</artifactId>
-      <version>8.7.1</version>
     </dependency>
   </dependencies>
 
