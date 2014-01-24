@@ -17,7 +17,7 @@
       <plugin>
         <groupId>org.robovm</groupId>
         <artifactId>robovm-maven-plugin</artifactId>
-        <version>0.0.6.1</version>
+        <version>0.0.8.1</version>
         <configuration>
           <config>
             <mainClass>org.robovm.sample.jfx.RoboVMJFXLauncher</mainClass>
@@ -32,12 +32,12 @@
     <dependency>
       <groupId>org.robovm</groupId>
       <artifactId>robovm-rt</artifactId>
-      <version>0.0.6</version>
+      <version>0.0.8</version>
     </dependency>
     <dependency>
       <groupId>org.robovm</groupId>
       <artifactId>robovm-cocoatouch</artifactId>
-      <version>0.0.6</version>
+      <version>0.0.8</version>
     </dependency>
   </dependencies>
 
