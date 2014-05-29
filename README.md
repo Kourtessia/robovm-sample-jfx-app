@@ -10,23 +10,21 @@ mvn install:install-file -Dfile=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jd
 	
 Then maven will install jfxrt.jar then you can simply reference it as 
  
- 
- <code class="bwp-syntax-inline"><span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;dependency<span style="color: #000000; font-weight: bold;">&gt;</span></span></span><br />
- <br /><span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;groupId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>com.oracle.javafx<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/groupId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span><br />
- <br /><span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;artifactId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>javafx<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/artifactId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span><br />
- <br /><span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;version<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>2.2<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/version<span style="color: #000000; font-weight: bold;">&gt;</span></span></span><br />
- <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/dependency<span style="color: #000000; font-weight: bold;">&gt;</span></span></span></code>
- 
- 
+        <p>&lt;dependency&gt;<br>
+             &lt;groupId&gt;com.oracle&lt;/groupId&gt;<br>
+             &lt;artifactId&gt;javafx&lt;/artifactId&gt;<br>
+             &lt;version&gt;${javafx.version}&lt;/version&gt;<br>
+         &lt;/dependency&gt;</p>
+
 	
 To let RoboVM make an iOS app on iphone, ipad simulator or iOS Device we need to call from the command line:	
 
-<div class="highlight highlight-bash">
+
 <pre>	
 mvn robovm:iphone-sim
 mvn robovm:ipad-sim
 mvn robovm:ios-device
-</pre></div>
+</pre>
 
 
 
