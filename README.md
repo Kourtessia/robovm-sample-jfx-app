@@ -8,17 +8,21 @@ mvn install:install-file -Dfile=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jd
     -DartifactId=javafx -Dversion=2.2 -Dpackaging=jar
 </pre></div>
 	
-Then maven will install jfxrt.jar then you can simply reference it as 
+
  
 <div class="highlight highlight-bash"><pre>
-<dependency>
+ <p>
+	 Then maven will install jfxrt.jar then you can simply reference it as 
+  <dependency>
   <groupId>com.oracle.javafx</groupId>
   <artifactId>javafx</artifactId>
   <version>2.2</version>
-</dependency>  	
+</dependency>
+</p>
 </pre></div>
 	
 To let RoboVM make an iOS app we need to call:	
+
 <div class="highlight highlight-bash"><pre>	
 mvn robovm:iphone-sim
 </pre></div>
