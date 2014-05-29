@@ -10,7 +10,7 @@ mvn install:install-file -Dfile=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jd
 	
 Then maven will install jfxrt.jar then you can simply reference it as 
  
- &lt;<span class="hl-tag">/dependency</span>&gt;<br>
+ &lt;<span class="hl-tag">dependency</span>&gt;<br>
  &lt;<span class="hl-tag">groupId</span>&gt;com.oracle.javafx&lt;<span class="hl-tag">/groupId</span>&gt;<br>
  &lt;<span class="hl-tag">artifactId</span>&gt;javafx&lt;
  <span class="hl-tag">/artifactId</span>&gt;<br>
