@@ -10,39 +10,15 @@ mvn install:install-file -Dfile=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jd
 	
 Then maven will install jfxrt.jar then you can simply reference it as 
  
-  &lt;
- &lt;
- <span class="hl-tag">/dependency</span>
- &gt;<br>
-   &lt;
- <span class="hl-tag">groupId</span>
- &gt;spring-context&lt;
- <span class="hl-tag">/groupId</span>
- &gt;<br>
-   &lt;
- <span class="hl-tag">artifactId</span>
- &gt;spring-context&lt;
- <span class="hl-tag">/artifactId</span>
- &gt;<br>
-   &lt;
-   <span class="hl-tag">version</span>
-   &gt;3.0.0.RELEASE&lt;
-   <span class="hl-tag">/version</span>
-   &gt;<br>
-   &lt;
-   <span class="hl-tag">/dependency</span>
-   &gt;
-   &lt;
- 
-        <p>&lt;dependency&gt;<br>
-             &lt;groupId&gt;com.oracle&lt;/groupId&gt;<br>
-             &lt;artifactId&gt;javafx&lt;/artifactId&gt;<br>
-             &lt;version&gt;${javafx.version}&lt;/version&gt;<br>
-         &lt;/dependency&gt;</p>
+ &lt;<span class="hl-tag">/dependency</span>&gt;<br>
+ &lt;<span class="hl-tag">groupId</span>&gt;com.oracle.javafx&lt;<span class="hl-tag">/groupId</span>&gt;<br>
+ &lt;<span class="hl-tag">artifactId</span>&gt;javafx&lt;
+ <span class="hl-tag">/artifactId</span>&gt;<br>
+ &lt;<span class="hl-tag">version</span>&gt;2.2&lt;<span class="hl-tag">/version</span>&gt;<br>
+ &lt;<span class="hl-tag">/dependency</span>&gt;
 
 	
 To let RoboVM make an iOS app on iphone, ipad simulator or iOS Device we need to call from the command line:	
-
 
 <pre>	
 mvn robovm:iphone-sim
