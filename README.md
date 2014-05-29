@@ -21,8 +21,8 @@ Then maven will install jfxrt.jar then you can simply reference it as
 To let RoboVM make an iOS app on iphone, ipad simulator or iOS Device we need to call from the command line:	
 
 <code>mvn robovm:iphone-sim</code>
-<pre>mvn robovm:ipad-sim</pre>
-<pre>mvn robovm:ios-device</pre>
+<code>mvn robovm:ipad-sim</code>
+<code>mvn robovm:ios-device</code>
 
 
 
