@@ -3,6 +3,11 @@ robovm-sample-jfx-app
 
 A simple, example JavaFX app for RoboVM
 
+
+![ScreenShot](https://github.com/Kourtessia/robovm-sample-jfx-app/blob/master/images/JavaFX_willAddName.png?raw=true)
+![ScreenShot](https://github.com/Kourtessia/robovm-sample-jfx-app/blob/master/images/JavaFX_HelloWorld.png?raw=true)
+
+
 <div class="highlight highlight-bash"><pre>
 mvn install:install-file -Dfile=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfxrt.jar -DgroupId=com.oracle.javafx \
     -DartifactId=javafx -Dversion=2.2 -Dpackaging=jar
@@ -26,7 +31,5 @@ To let RoboVM make an iOS app on iphone, ipad simulator or iOS Device we need to
 
 
 
-![ScreenShot](https://github.com/Kourtessia/robovm-sample-jfx-app/blob/master/images/JavaFX_willAddName_.png?raw=true)'
-!![ScreenShot](https://github.com/Kourtessia/robovm-sample-jfx-app/blob/master/images/JavaFX_HelloWorld.png?raw=true)'
 
 
