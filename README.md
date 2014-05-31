@@ -26,7 +26,7 @@ To let RoboVM make an iOS app on iphone, ipad simulator or iOS Device we need to
 
 
 
-![ScreenShot](https://github.com/Kourtessia/robovm-sample-jfx-app/blob/master/images/EnterName.png?raw=true)'
-!![ScreenShot](https://github.com/Kourtessia/robovm-sample-jfx-app/blob/master/images/HelloWorld.png?raw=true)'
+![ScreenShot](https://github.com/Kourtessia/robovm-sample-jfx-app/blob/master/images/JavaFX_willAddName_.png?raw=true)'
+!![ScreenShot](https://github.com/Kourtessia/robovm-sample-jfx-app/blob/master/images/JavaFX_HelloWorld.png?raw=true)'
 
 
