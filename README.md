@@ -4,7 +4,7 @@ robovm-sample-jfx-app
 A simple, example JavaFX app for RoboVM
 
 
-![ScreenShot](https://github.com/Kourtessia/robovm-sample-jfx-app/blob/master/images/JavaFX_willAddName.png?raw=true)
+![ScreenShot](https://github.com/Kourtessia/robovm-sample-jfx-app/blob/master/images/JavaFX_willAddName.png?raw=true) &nbsp; &nbsp;
 ![ScreenShot](https://github.com/Kourtessia/robovm-sample-jfx-app/blob/master/images/JavaFX_HelloWorld.png?raw=true)
 
 
